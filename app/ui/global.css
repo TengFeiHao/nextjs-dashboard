@@ -1,5 +1,8 @@
+/* 这个指令用于引入 Tailwind 的基础样式。基础样式包括了浏览器的默认样式重置、基本的排版规则和一些全局样式设置。 */
 @tailwind base;
+/* 这个指令用于引入 Tailwind 的组件样式。组件样式包括了预定义的、可复用的样式规则，可以用来构建复杂的 UI 组件。 */
 @tailwind components;
+/* 这个指令用于引入 Tailwind 的实用工具类。实用工具类是最常用的部分，提供了大量的小型、单一功能的类，用于快速构建和定制 UI。 */
 @tailwind utilities;
 
 input[type='number'] {
